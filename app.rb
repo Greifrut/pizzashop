@@ -12,7 +12,7 @@ end
 
 get '/' do
 	@product = Product.all
-	
+
 	erb :index
 end
 
@@ -20,3 +20,6 @@ get '/About' do
   erb :about
 end
 
+post '/cart' do
+	erb 'Hello'
+end
