@@ -14,6 +14,7 @@ function something ()
 
 function add_to_cart(id)
 {
+<<<<<<< HEAD
   var key = 'product_' + id;
 
   var x = window.localStorage.getItem(key);
@@ -39,3 +40,12 @@ function cart_get_number_of_items()
   }
     return cnt;
 }
+=======
+    var key = 'product'+id;
+
+    var x = window.localStorage.getItem(key);
+    x = x*1 + 1;
+
+    window.localStorage.setItem('product'+id, x);
+}
+>>>>>>> 2f99aa528e099a540cb639377924bebb25c0c126
