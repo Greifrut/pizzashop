@@ -21,5 +21,5 @@ get '/About' do
 end
 
 post '/cart' do
-	erb 'Hello'
+
 end
